@@ -1,0 +1,64 @@
+.customDate{
+	width:44px
+}
+#FullYear{
+	width:80px
+}
+.input-dob {
+    line-height: 14px;
+    padding: 0 14px 0 10px;
+    margin: 0;
+    width: 60px;
+}
+input{
+	border:none !important
+}
+.input-email, .input-dob, .input-number, .input-password, .input-phone, .input-text, .input-textarea {
+    max-width: 100%;
+    text-align: left;
+    border: 1px solid #929292;
+    border-radius: 0;
+    outline: none;
+    color: #333;
+    font-size: 14px;
+	margin-right: -23px;
+}
+.input-email, .input-dob, .input-number, .input-password, .input-phone, .input-text {
+    height: 36px;
+}
+
+
+span.dash {
+    display: inline-block;
+    width: 5px;
+    text-align: center;
+    overflow: hidden;
+	position:relative;
+//	left:-12px;
+	top:4px;
+}
+    .errspan {
+        margin-top: -20px;
+        position: relative;
+        z-index: 2;
+        color: #444;
+	
+    }
+	span.fa.fa-angle-down.errspan {
+    bottom: -5px;
+	left: -13px;
+}
+span.fa.fa-angle-up.errspan {
+    top: -6px;
+	left:0;
+}
+
+
+.items{  
+margin-right: -12px;
+  display:none;
+}
+.errorCls{
+	background: rgb(255, 186, 186);
+    color: rgb(216, 0, 12);
+}
