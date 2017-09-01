@@ -189,7 +189,7 @@ $('#Seconds').focus(function(){
 $('#Seconds').focusout(function(){
 	$('#Seconds').next().css('display','none');
 });
-
+alert
 
 
 });
