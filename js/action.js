@@ -189,5 +189,5 @@ $('#Seconds').focus(function(){
 $('#Seconds').focusout(function(){
 	$('#Seconds').next().css('display','none');
 });
-
+console.log('First visit')
 });
